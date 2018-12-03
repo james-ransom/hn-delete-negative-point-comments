@@ -25,17 +25,21 @@ let's delete it if has less than two points
 
 # How to get it to run automatically?
 
+add rvm properties to your cronjob file [backup your crontab first!] 
+
+    rvm cron setup; 
+    
 open crontab in your Terminal: 
 
     crontab -e
 
 Add this line: 
 
-    * * * * * cd [path to source]; [path to ruby] run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
+    * * * * * cd [path to code source]; ruby run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
 
 Example
     
-    cd /Users/username/hn-delete-negative-point-comments; /usr/bin/ruby run.rb throwaway203821 throwawaypassword 1 
+    cd /Users/username/hn-delete-negative-point-comments; ruby run.rb throwaway203821 throwawaypassword 1 
     
 On macOS to get the ruby path, type in your Terminal: 
     
@@ -49,6 +53,7 @@ For more help with crontab
     
     https://ole.michelsen.dk/blog/schedule-jobs-with-crontab-on-mac-osx.html
 
+For more help with rvm and cron 
 
 # Tests
 

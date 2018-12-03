@@ -57,6 +57,17 @@ For more help with rvm and cron
 
     https://stackoverflow.com/questions/5680561/need-to-set-up-rvm-environment-prior-to-every-cron-job
     
+# Watch it run (Assuming you pipe it to /tmp/delete.log)
+
+    $ tail -f /tmp/delete.log
+    No bad comments....
+    No bad comments....
+    No bad comments....
+    No bad comments....
+    Deleting comment: 18588594
+    No bad comments....
+
+
 # Tests
 
     ruby test.rb 

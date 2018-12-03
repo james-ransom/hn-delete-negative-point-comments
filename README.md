@@ -43,3 +43,9 @@ On macOS if you have problems with crontab with "Operation not permitted"
 For more help with crontab 
     
     https://ole.michelsen.dk/blog/schedule-jobs-with-crontab-on-mac-osx.html
+
+
+# Tests
+
+    ruby test.rb 
+  

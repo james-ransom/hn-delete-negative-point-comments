@@ -14,6 +14,8 @@ Ever post a comment you regret? Often these comments have negative points.  If y
 To use: 
     ruby run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
 
+    lets delete it if has less than one point
+
     ruby run.rb USERNAME PASSWORD 1 
 
     lets delete it if has less than two points 
@@ -28,3 +30,10 @@ open crontab:
     Add this line: 
 
     * * * * * [path to ruby] run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
+    
+On macOS to get the ruby path: 
+    which ruby 
+    
+On macOS if you have problems with crontab with "Operation not permitted" 
+
+    http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/

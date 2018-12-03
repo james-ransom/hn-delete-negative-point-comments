@@ -74,6 +74,6 @@ For more help with rvm and cron
   
 # Git Stars appreciated
 
-    This was just a funny idea to keep me typing ruby for a few hours.  Please don't get upset or emotional HN is just fine.  
+This was just a funny idea to keep me typing ruby for a few hours.
     
     

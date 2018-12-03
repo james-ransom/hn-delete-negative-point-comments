@@ -15,11 +15,11 @@ To use:
 
     ruby run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
 
-let's delete it if has less than one point
+let's delete comments less than one point
 
     ruby run.rb USERNAME PASSWORD 1 
 
-let's delete it if has less than two points 
+let's delete comments less than two points 
 
     ruby run.rb USERNAME PASSWORD 2
 
@@ -72,4 +72,8 @@ For more help with rvm and cron
 
     ruby test.rb 
   
-# Git Stars appreciated!!!
+# Git Stars appreciated
+
+    This was just a funny idea to keep me typing ruby for a few hours.  Please don't get upset or emotional HN is just fine.  
+    
+    

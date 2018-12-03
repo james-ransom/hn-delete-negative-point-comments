@@ -14,11 +14,11 @@ Ever post a comment you regret? Often these comments have negative points.  If y
 To use: 
     ruby run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
 
-    lets delete it if has less than one point
+let's delete it if has less than one point
 
     ruby run.rb USERNAME PASSWORD 1 
 
-    lets delete it if has less than two points 
+let's delete it if has less than two points 
 
     ruby run.rb USERNAME PASSWORD 2
 

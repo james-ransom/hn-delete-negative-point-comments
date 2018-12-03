@@ -32,6 +32,7 @@ open crontab:
     * * * * * [path to ruby] run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
     
 On macOS to get the ruby path: 
+    
     which ruby 
     
 On macOS if you have problems with crontab with "Operation not permitted" 

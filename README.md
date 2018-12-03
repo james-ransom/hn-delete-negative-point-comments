@@ -24,17 +24,22 @@ To use:
 
 # How to get it to run automatically?
 
-open crontab: 
+open crontab in your Terminal: 
+
     crontab -e
 
-    Add this line: 
+Add this line: 
 
     * * * * * [path to ruby] run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
-    
-On macOS to get the ruby path: 
+
+On macOS to get the ruby path, type in your Terminal: 
     
     which ruby 
     
 On macOS if you have problems with crontab with "Operation not permitted" 
 
     http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
+    
+For more help with crontab 
+    
+    https://ole.michelsen.dk/blog/schedule-jobs-with-crontab-on-mac-osx.html

@@ -9,19 +9,19 @@ Ever post a comment you regret? Often these comments have negative points.  If y
 # How to run it 
 
 To use: 
-ruby run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
+    ruby run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
 
-ruby run.rb USERNAME PASSWORD 1 
+    ruby run.rb USERNAME PASSWORD 1 
 
-lets delete it if has less than two points 
+    lets delete it if has less than two points 
 
-ruby run.rb USERNAME PASSWORD 2
+    ruby run.rb USERNAME PASSWORD 2
 
 # How to get it to run automatically?
 
 open crontab: 
-crontab -e
+    crontab -e
 
-Add this line: 
+    Add this line: 
 
-* * * * * [path to ruby] run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
+    * * * * * [path to ruby] run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]

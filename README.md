@@ -12,6 +12,7 @@ Ever post a comment you regret? Often these comments have negative points.  If y
 # How to run it 
 
 To use: 
+
     ruby run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
 
 let's delete it if has less than one point

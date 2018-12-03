@@ -55,6 +55,8 @@ For more help with crontab
 
 For more help with rvm and cron 
 
+    https://stackoverflow.com/questions/5680561/need-to-set-up-rvm-environment-prior-to-every-cron-job
+    
 # Tests
 
     ruby test.rb 

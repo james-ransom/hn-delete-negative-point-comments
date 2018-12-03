@@ -39,7 +39,7 @@ Add this line:
 
 Example
     
-    cd /Users/username/hn-delete-negative-point-comments; ruby run.rb throwaway203821 throwawaypassword 1 
+    cd /Users/username/hn-delete-negative-point-comments; ruby run.rb throwaway203821 throwawaypassword 1  >> /tmp/delete.log
     
 On macOS to get the ruby path, type in your Terminal: 
     

@@ -30,8 +30,12 @@ open crontab in your Terminal:
 
 Add this line: 
 
-    * * * * * [path to ruby] run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
+    * * * * * cd [path to source]; [path to ruby] run.rb [YOURUSERNAME] [YOURPASSWORD] [MIN_NUMBER_OF_POINTS]
 
+Example
+    
+    cd /Users/username/hn-delete-negative-point-comments; /usr/bin/ruby run.rb throwaway203821 throwawaypassword 1 
+    
 On macOS to get the ruby path, type in your Terminal: 
     
     which ruby 
